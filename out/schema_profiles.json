@@ -1,0 +1,1409 @@
+{
+  "1": {
+    "columns": [
+      {
+        "name": "Id",
+        "null_ratio": 0.0,
+        "examples": [
+          "59d1b04b-f12f-4a53-b9ce-5a850266effc",
+          "e72920f5-7e0a-4682-bc7b-c24890da4254",
+          "b2990d70-4270-4aad-84d3-714b10192da8"
+        ]
+      },
+      {
+        "name": "CreationDate",
+        "null_ratio": 0.0,
+        "examples": [
+          "2026-01-05T03:53:00Z",
+          "2025-12-24T14:59:00Z",
+          "2025-12-22T03:59:00Z"
+        ]
+      },
+      {
+        "name": "UserId",
+        "null_ratio": 0.0,
+        "examples": [
+          "it.admin@evilcorp.com",
+          "alice@evilcorp.com",
+          "bob@evilcorp.com"
+        ]
+      },
+      {
+        "name": "ClientIP",
+        "null_ratio": 0.0,
+        "examples": [
+          "5.62.41.22",
+          "83.45.12.34",
+          "185.199.110.42"
+        ]
+      },
+      {
+        "name": "Operation",
+        "null_ratio": 0.0,
+        "examples": [
+          "Send",
+          "FileAccessed",
+          "Set-Mailbox"
+        ]
+      },
+      {
+        "name": "Workload",
+        "null_ratio": 0.0,
+        "examples": [
+          "Exchange",
+          "SharePoint",
+          "AzureActiveDirectory"
+        ]
+      },
+      {
+        "name": "RecordType",
+        "null_ratio": 0.0,
+        "examples": [
+          "1",
+          "6",
+          "8"
+        ]
+      },
+      {
+        "name": "ResultStatus",
+        "null_ratio": 0.0,
+        "examples": [
+          "Succeeded",
+          "Failed",
+          "PartiallySucceeded"
+        ]
+      },
+      {
+        "name": "ObjectId",
+        "null_ratio": 0.0,
+        "examples": [
+          "",
+          "/Shared Documents/Q4_Forecast.xlsx",
+          "bob@evilcorp.com"
+        ]
+      },
+      {
+        "name": "AuditData",
+        "null_ratio": 0.0,
+        "examples": [
+          "{\"CreationTime\": \"2026-01-05T03:53:00Z\", \"Operation\": \"Send\", \"Workload\": \"Exchange\", \"UserId\": \"it.admin@evilcorp.com\", \"ClientIP\": \"5.62.41.22\", \"Id\": \"59d1b04b-f12f-4a53-b9ce-5a850266effc\", \"Organi",
+          "{\"CreationTime\": \"2025-12-24T14:59:00Z\", \"Operation\": \"FileAccessed\", \"Workload\": \"SharePoint\", \"UserId\": \"alice@evilcorp.com\", \"ClientIP\": \"83.45.12.34\", \"Id\": \"e72920f5-7e0a-4682-bc7b-c24890da4254\",",
+          "{\"CreationTime\": \"2025-12-22T03:59:00Z\", \"Operation\": \"Set-Mailbox\", \"Workload\": \"Exchange\", \"UserId\": \"bob@evilcorp.com\", \"ClientIP\": \"185.199.110.42\", \"Id\": \"b2990d70-4270-4aad-84d3-714b10192da8\", \""
+        ]
+      },
+      {
+        "name": "OrganizationId",
+        "null_ratio": 0.0,
+        "examples": [
+          "15f6184d-cc3c-41c8-bf48-579b6ea5ff79",
+          "78ec5eb1-0740-473e-9ee7-eb911d441936",
+          "79e12e9b-a618-4be5-8f18-0dcf87e0f0ab"
+        ]
+      },
+      {
+        "name": "UserType",
+        "null_ratio": 0.0,
+        "examples": [
+          "2",
+          "0",
+          "3"
+        ]
+      },
+      {
+        "name": "EventSource",
+        "null_ratio": 0.0,
+        "examples": [
+          "Exchange",
+          "SharePoint",
+          "AzureActiveDirectory"
+        ]
+      }
+    ],
+    "n_sample": 40
+  },
+  "2": {
+    "columns": [
+      {
+        "name": "CreatedDateTime",
+        "null_ratio": 0.0,
+        "examples": [
+          "2025-12-26T13:33:00Z",
+          "2025-12-19T21:49:00Z",
+          "2025-12-30T15:49:00Z"
+        ]
+      },
+      {
+        "name": "AppDisplayName",
+        "null_ratio": 0.0,
+        "examples": [
+          "Microsoft 365 Admin Center",
+          "Azure Portal",
+          "Microsoft Teams"
+        ]
+      },
+      {
+        "name": "ServicePrincipalId",
+        "null_ratio": 0.0,
+        "examples": [
+          "46af1432-9ab7-48cd-a687-9b5ccf064f86",
+          "d640305d-d24c-4dcb-825c-ffae648e497f",
+          "330d1f46-6ff0-4818-80e3-bcc8045a390f"
+        ]
+      },
+      {
+        "name": "ServicePrincipalName",
+        "null_ratio": 0.0,
+        "examples": [
+          "svc-payroll",
+          "svc-backup",
+          "svc-etl"
+        ]
+      },
+      {
+        "name": "IpAddress",
+        "null_ratio": 0.0,
+        "examples": [
+          "2.139.88.10",
+          "83.45.12.33",
+          "5.62.41.22"
+        ]
+      },
+      {
+        "name": "ResultType",
+        "null_ratio": 0.0,
+        "examples": [
+          "50076",
+          "0",
+          "50053"
+        ]
+      },
+      {
+        "name": "Status.errorCode",
+        "null_ratio": 0.0,
+        "examples": [
+          "50076",
+          "50053",
+          "0"
+        ]
+      },
+      {
+        "name": "Status.failureReason",
+        "null_ratio": 0.0,
+        "examples": [
+          "MFA required.",
+          "Invalid secret.",
+          ""
+        ]
+      },
+      {
+        "name": "CorrelationId",
+        "null_ratio": 0.0,
+        "examples": [
+          "3c265f95-eeea-4b89-b6df-de1a479322df",
+          "6a6895f7-5114-4675-b53d-ff61b4c99048",
+          "1a6407f6-0b7f-4fb8-9815-f6b834c65364"
+        ]
+      },
+      {
+        "name": "TenantId",
+        "null_ratio": 0.0,
+        "examples": [
+          "cfcab096-5b1c-4aa3-bfd9-d943bac1bf5c",
+          "29294372-4165-4f42-928f-9049def589ce",
+          "664cc197-d1df-46ed-bad9-3a628f84af3e"
+        ]
+      }
+    ],
+    "n_sample": 20
+  },
+  "3": {
+    "columns": [
+      {
+        "name": "CreatedDateTime",
+        "null_ratio": 0.0,
+        "examples": [
+          "2025-12-30T14:53:00Z",
+          "2025-12-27T01:34:00Z",
+          "2025-12-12T21:47:00Z"
+        ]
+      },
+      {
+        "name": "UserPrincipalName",
+        "null_ratio": 0.0,
+        "examples": [
+          "svc.backup@evilcorp.com",
+          "cfo@evilcorp.com",
+          "bob@evilcorp.com"
+        ]
+      },
+      {
+        "name": "IpAddress",
+        "null_ratio": 0.0,
+        "examples": [
+          "185.199.110.42",
+          "20.190.128.12",
+          "5.62.41.22"
+        ]
+      },
+      {
+        "name": "AppDisplayName",
+        "null_ratio": 0.0,
+        "examples": [
+          "Graph Explorer",
+          "Microsoft Teams",
+          "SharePoint Online"
+        ]
+      },
+      {
+        "name": "ClientAppUsed",
+        "null_ratio": 0.0,
+        "examples": [
+          "Browser",
+          "Other clients",
+          "Exchange ActiveSync"
+        ]
+      },
+      {
+        "name": "UserAgent",
+        "null_ratio": 0.0,
+        "examples": [
+          "Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36 Chrome/119.0 Mobile",
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0",
+          "Microsoft Office/16.0 (Windows NT 10.0; Microsoft Outlook 16.0.17029; Pro)"
+        ]
+      },
+      {
+        "name": "DeviceDetail.deviceId",
+        "null_ratio": 0.0,
+        "examples": [
+          "",
+          "6aff2354-8196-4d52-9ce2-f8007254aa7c",
+          "8bf812df-4ad5-4b6c-a6b6-7ce44f9226c2"
+        ]
+      },
+      {
+        "name": "CorrelationId",
+        "null_ratio": 0.0,
+        "examples": [
+          "30b64740-e406-4cdf-aeb6-923db5bb9f88",
+          "977ef84c-6bcf-45ad-9857-2fa53d825082",
+          "4dc65e7e-bd66-4468-a82d-7d89055b1bae"
+        ]
+      },
+      {
+        "name": "ResultType",
+        "null_ratio": 0.0,
+        "examples": [
+          "50053",
+          "0",
+          "50076"
+        ]
+      },
+      {
+        "name": "Status.errorCode",
+        "null_ratio": 0.0,
+        "examples": [
+          "50053",
+          "0",
+          "50076"
+        ]
+      },
+      {
+        "name": "Status.failureReason",
+        "null_ratio": 0.0,
+        "examples": [
+          "Account is locked.",
+          "",
+          "User did not complete MFA."
+        ]
+      },
+      {
+        "name": "Status.additionalDetails",
+        "null_ratio": 0.0,
+        "examples": [
+          "MFARequired",
+          "",
+          "StrongAuthenticationRequired"
+        ]
+      },
+      {
+        "name": "RiskLevelAggregated",
+        "null_ratio": 0.0,
+        "examples": [
+          "low",
+          "none",
+          "high"
+        ]
+      },
+      {
+        "name": "RiskState",
+        "null_ratio": 0.0,
+        "examples": [
+          "confirmedSafe",
+          "none",
+          "atRisk"
+        ]
+      },
+      {
+        "name": "RiskDetail",
+        "null_ratio": 0.0,
+        "examples": [
+          "impossibleTravel",
+          "none",
+          "tokenIssuerAnomaly"
+        ]
+      },
+      {
+        "name": "Location.countryOrRegion",
+        "null_ratio": 0.0,
+        "examples": [
+          "DE",
+          "FR",
+          "NL"
+        ]
+      },
+      {
+        "name": "Location.state",
+        "null_ratio": 0.0,
+        "examples": [
+          "Berlin",
+          "Île-de-France",
+          "North Holland"
+        ]
+      },
+      {
+        "name": "Location.city",
+        "null_ratio": 0.0,
+        "examples": [
+          "Berlin",
+          "Paris",
+          "Amsterdam"
+        ]
+      },
+      {
+        "name": "ConditionalAccessStatus",
+        "null_ratio": 0.0,
+        "examples": [
+          "success",
+          "unknown",
+          "failure"
+        ]
+      },
+      {
+        "name": "AuthenticationRequirement",
+        "null_ratio": 0.0,
+        "examples": [
+          "none",
+          "singleFactorAuthentication",
+          "multiFactorAuthentication"
+        ]
+      },
+      {
+        "name": "MfaDetail.authMethod",
+        "null_ratio": 0.0,
+        "examples": [
+          "FIDO2",
+          "Authenticator",
+          ""
+        ]
+      },
+      {
+        "name": "MfaDetail.authDetail",
+        "null_ratio": 0.0,
+        "examples": [
+          "OTP",
+          "Security Key",
+          ""
+        ]
+      },
+      {
+        "name": "ResourceDisplayName",
+        "null_ratio": 0.0,
+        "examples": [
+          "SharePoint",
+          "Office 365 Exchange Online",
+          "Microsoft Graph"
+        ]
+      },
+      {
+        "name": "TenantId",
+        "null_ratio": 0.0,
+        "examples": [
+          "c91d833b-9613-4894-8523-d64f2a91ab39",
+          "0d4f0eb8-5491-4571-b36b-48a3b24a6b19",
+          "7009f90e-3efb-4b63-b37e-693872428840"
+        ]
+      },
+      {
+        "name": "UserId",
+        "null_ratio": 0.0,
+        "examples": [
+          "69bf4747-bd98-4748-af8b-38dfb47fdbbf",
+          "2dee7749-8e82-43af-aaa8-3fea5d170644",
+          "148591a2-eca2-4fab-950f-ab1bbb6b872a"
+        ]
+      },
+      {
+        "name": "SignInEventTypes",
+        "null_ratio": 0.0,
+        "examples": [
+          "interactiveUser"
+        ]
+      },
+      {
+        "name": "AppliedConditionalAccessPolicies",
+        "null_ratio": 0.0,
+        "examples": [
+          "[{\"id\": \"9b86593a-50b0-4ab7-9359-65df30ca942e\", \"displayName\": \"Block legacy auth\", \"enforcedGrantControls\": [\"mfa\"], \"result\": \"failure\"}]",
+          "[]",
+          "[{\"id\": \"03d9d1a2-dddd-4257-939a-9e98e2145c2f\", \"displayName\": \"Require MFA for admins\", \"enforcedGrantControls\": [\"mfa\", \"compliantDevice\"], \"result\": \"notApplied\"}]"
+        ]
+      },
+      {
+        "name": "AuthenticationDetails",
+        "null_ratio": 0.0,
+        "examples": [
+          "[{\"authenticationStepDateTime\": \"2026-01-07T07:57:00Z\", \"authenticationMethod\": \"Password\", \"authenticationMethodDetail\": \"Password\", \"authenticationStepResultDetail\": \"Success\", \"succeeded\": true}]",
+          "[{\"authenticationStepDateTime\": \"2026-01-08T04:12:00Z\", \"authenticationMethod\": \"Password\", \"authenticationMethodDetail\": \"Password\", \"authenticationStepResultDetail\": \"Success\", \"succeeded\": true}]",
+          "[{\"authenticationStepDateTime\": \"2026-01-08T03:00:00Z\", \"authenticationMethod\": \"Password\", \"authenticationMethodDetail\": \"Password\", \"authenticationStepResultDetail\": \"Success\", \"succeeded\": true}, {"
+        ]
+      }
+    ],
+    "n_sample": 30
+  },
+  "4": {
+    "columns": [
+      {
+        "name": "CreatedDateTime",
+        "null_ratio": 0.0,
+        "examples": [
+          "2025-12-21T15:57:00Z",
+          "2025-12-18T08:10:00Z",
+          "2025-12-16T20:04:00Z"
+        ]
+      },
+      {
+        "name": "UserPrincipalName",
+        "null_ratio": 0.0,
+        "examples": [
+          "it.admin@evilcorp.com",
+          "cfo@evilcorp.com",
+          "bob@evilcorp.com"
+        ]
+      },
+      {
+        "name": "IpAddress",
+        "null_ratio": 0.0,
+        "examples": [
+          "20.190.128.12",
+          "5.62.41.22",
+          "83.45.12.34"
+        ]
+      },
+      {
+        "name": "AppDisplayName",
+        "null_ratio": 0.0,
+        "examples": [
+          "Microsoft 365 Admin Center",
+          "Azure Portal",
+          "SharePoint Online"
+        ]
+      },
+      {
+        "name": "ClientAppUsed",
+        "null_ratio": 0.0,
+        "examples": [
+          "Browser",
+          "Other clients",
+          "Exchange ActiveSync"
+        ]
+      },
+      {
+        "name": "UserAgent",
+        "null_ratio": 0.0,
+        "examples": [
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0",
+          "Microsoft Office/16.0 (Windows NT 10.0; Microsoft Outlook 16.0.17029; Pro)",
+          "Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36 Chrome/119.0 Mobile"
+        ]
+      },
+      {
+        "name": "DeviceDetail.deviceId",
+        "null_ratio": 0.0,
+        "examples": [
+          "707c560f-7b01-40ee-9c67-01d0dae893cd",
+          "",
+          "a5a2baf4-96f6-4059-8cf8-10753a83b691"
+        ]
+      },
+      {
+        "name": "CorrelationId",
+        "null_ratio": 0.0,
+        "examples": [
+          "82ff0834-4a7d-4f88-97e6-b830a96f90bb",
+          "2831b851-3c4a-4796-beda-8f14f36c39f6",
+          "9ab6e85d-2aad-4e20-b60f-957f3f815e36"
+        ]
+      },
+      {
+        "name": "ResultType",
+        "null_ratio": 0.0,
+        "examples": [
+          "0",
+          "50058",
+          "50076"
+        ]
+      },
+      {
+        "name": "Status.errorCode",
+        "null_ratio": 0.0,
+        "examples": [
+          "0",
+          "50058",
+          "50076"
+        ]
+      },
+      {
+        "name": "Status.failureReason",
+        "null_ratio": 0.0,
+        "examples": [
+          "",
+          "Invalid username or password.",
+          "MFA required."
+        ]
+      },
+      {
+        "name": "Status.additionalDetails",
+        "null_ratio": 0.0,
+        "examples": [
+          "",
+          "MFARequired",
+          "AccountLocked"
+        ]
+      },
+      {
+        "name": "RiskLevelAggregated",
+        "null_ratio": 0.0,
+        "examples": [
+          "none",
+          "medium",
+          "low"
+        ]
+      },
+      {
+        "name": "RiskState",
+        "null_ratio": 0.0,
+        "examples": [
+          "none",
+          "confirmedSafe",
+          "atRisk"
+        ]
+      },
+      {
+        "name": "RiskDetail",
+        "null_ratio": 0.0,
+        "examples": [
+          "none",
+          "passwordSpray",
+          "unfamiliarFeatures"
+        ]
+      },
+      {
+        "name": "Location.countryOrRegion",
+        "null_ratio": 0.0,
+        "examples": [
+          "US",
+          "DE",
+          "ES"
+        ]
+      },
+      {
+        "name": "Location.state",
+        "null_ratio": 0.0,
+        "examples": [
+          "Virginia",
+          "Berlin",
+          "Catalonia"
+        ]
+      },
+      {
+        "name": "Location.city",
+        "null_ratio": 0.0,
+        "examples": [
+          "Ashburn",
+          "Berlin",
+          "Barcelona"
+        ]
+      },
+      {
+        "name": "ConditionalAccessStatus",
+        "null_ratio": 0.0,
+        "examples": [
+          "notApplied",
+          "unknown",
+          "success"
+        ]
+      },
+      {
+        "name": "AuthenticationRequirement",
+        "null_ratio": 0.0,
+        "examples": [
+          "singleFactorAuthentication",
+          "none",
+          "multiFactorAuthentication"
+        ]
+      },
+      {
+        "name": "MfaDetail.authMethod",
+        "null_ratio": 0.0,
+        "examples": [
+          "",
+          "SMS",
+          "Authenticator"
+        ]
+      },
+      {
+        "name": "MfaDetail.authDetail",
+        "null_ratio": 0.0,
+        "examples": [
+          "OTP",
+          "",
+          "Security Key"
+        ]
+      },
+      {
+        "name": "ResourceDisplayName",
+        "null_ratio": 0.0,
+        "examples": [
+          "Microsoft Graph",
+          "SharePoint",
+          "Office 365 Exchange Online"
+        ]
+      },
+      {
+        "name": "TenantId",
+        "null_ratio": 0.0,
+        "examples": [
+          "2626ff49-87bd-4779-aaa7-b73a96cf7634",
+          "3706795e-b0e0-4bd6-9010-35ae1e51bdce",
+          "aee0fb6d-8d22-450a-82a5-57aeb34fc486"
+        ]
+      },
+      {
+        "name": "UserId",
+        "null_ratio": 0.0,
+        "examples": [
+          "69774f82-948b-47a2-92b7-8a33daff988c",
+          "dc9b7ab9-24b2-4ff9-ade2-83b00c8ba1bc",
+          "45718a25-9051-46c9-91fc-e9408c7860fb"
+        ]
+      },
+      {
+        "name": "SignInEventTypes",
+        "null_ratio": 0.0,
+        "examples": [
+          "interactiveUser"
+        ]
+      },
+      {
+        "name": "AppliedConditionalAccessPolicies",
+        "null_ratio": 0.0,
+        "examples": [
+          "[{\"id\": \"d1ec3385-1802-4933-9ec8-68dee2dfbdfb\", \"displayName\": \"Require MFA for admins\", \"enforcedGrantControls\": [\"compliantDevice\"], \"result\": \"notApplied\"}, {\"id\": \"ec6391f8-c349-4c84-808e-9064b1ff",
+          "[{\"id\": \"6ff1b318-f8ef-4d16-873c-a5cac454c540\", \"displayName\": \"Require MFA for admins\", \"enforcedGrantControls\": [\"mfa\", \"compliantDevice\"], \"result\": \"success\"}, {\"id\": \"f8d5f998-221f-4d23-959c-96eb",
+          "[{\"id\": \"786a0634-e6c9-4430-a562-cceff0881b34\", \"displayName\": \"Require MFA for admins\", \"enforcedGrantControls\": [\"mfa\"], \"result\": \"failure\"}, {\"id\": \"cf54969f-57f4-4c48-b727-854f20180c65\", \"display"
+        ]
+      },
+      {
+        "name": "AuthenticationDetails",
+        "null_ratio": 0.0,
+        "examples": [
+          "[{\"authenticationStepDateTime\": \"2026-01-09T12:27:00Z\", \"authenticationMethod\": \"Password\", \"authenticationMethodDetail\": \"Password\", \"authenticationStepResultDetail\": \"Success\", \"succeeded\": true}]",
+          "[{\"authenticationStepDateTime\": \"2026-01-10T11:36:00Z\", \"authenticationMethod\": \"Password\", \"authenticationMethodDetail\": \"Password\", \"authenticationStepResultDetail\": \"Success\", \"succeeded\": true}, {",
+          "[{\"authenticationStepDateTime\": \"2026-01-08T13:07:00Z\", \"authenticationMethod\": \"Password\", \"authenticationMethodDetail\": \"Password\", \"authenticationStepResultDetail\": \"Success\", \"succeeded\": true}]"
+        ]
+      },
+      {
+        "name": "AuthenticationProtocol",
+        "null_ratio": 0.0,
+        "examples": [
+          "WS-Fed",
+          "OAuth2.0",
+          "SAML"
+        ]
+      },
+      {
+        "name": "AuthenticationProcessingDetails",
+        "null_ratio": 0.0,
+        "examples": [
+          "[{\"key\": \"LegacyTls\", \"value\": \"false\"}]",
+          "[{\"key\": \"LegacyTls\", \"value\": \"true\"}]"
+        ]
+      }
+    ],
+    "n_sample": 30
+  },
+  "5": {
+    "columns": [
+      {
+        "name": "CreatedDateTime",
+        "null_ratio": 0.0,
+        "examples": [
+          "2025-12-12T04:01:00Z",
+          "2025-12-22T03:40:00Z",
+          "2025-12-12T10:45:00Z"
+        ]
+      },
+      {
+        "name": "UserPrincipalName",
+        "null_ratio": 0.0,
+        "examples": [
+          "cfo@evilcorp.com",
+          "it.admin@evilcorp.com",
+          "bob@evilcorp.com"
+        ]
+      },
+      {
+        "name": "ManagedIdentityId",
+        "null_ratio": 0.0,
+        "examples": [
+          "7ad6943c-13ca-4e0a-994c-19e57a3bb625",
+          "83b76d44-ed1f-4e3c-9e27-67ae6eac4705",
+          "850d82c4-6e50-4bd5-a64b-ad9aaa34e4f0"
+        ]
+      },
+      {
+        "name": "ResourceDisplayName",
+        "null_ratio": 0.0,
+        "examples": [
+          "Microsoft Graph",
+          "Azure Resource Manager"
+        ]
+      },
+      {
+        "name": "IpAddress",
+        "null_ratio": 0.0,
+        "examples": [
+          "20.190.128.12",
+          "5.62.41.22",
+          "104.26.12.88"
+        ]
+      },
+      {
+        "name": "ResultType",
+        "null_ratio": 0.0,
+        "examples": [
+          "0",
+          "50076"
+        ]
+      },
+      {
+        "name": "Status.errorCode",
+        "null_ratio": 0.0,
+        "examples": [
+          "50076",
+          "0"
+        ]
+      },
+      {
+        "name": "CorrelationId",
+        "null_ratio": 0.0,
+        "examples": [
+          "73a10ed3-75db-4000-8bb0-ad6df981ec04",
+          "92b35514-4b31-47dd-b274-909d073071f3",
+          "20cfe62f-603f-4daa-aac5-0325d4d799d2"
+        ]
+      },
+      {
+        "name": "TenantId",
+        "null_ratio": 0.0,
+        "examples": [
+          "57655cc8-e07b-403d-b3dc-05092f3d1537",
+          "5667cd42-fc6d-497f-a472-765dba84ba8a",
+          "d453861a-00ab-42d2-a118-605b22318def"
+        ]
+      }
+    ],
+    "n_sample": 20
+  },
+  "6": {
+    "columns": [
+      {
+        "name": "CreatedDateTime",
+        "null_ratio": 0.0,
+        "examples": [
+          "2025-12-24T03:59:00Z",
+          "2025-12-13T18:42:00Z",
+          "2025-12-24T18:26:00Z"
+        ]
+      },
+      {
+        "name": "UserPrincipalName",
+        "null_ratio": 0.0,
+        "examples": [
+          "svc.backup@evilcorp.com",
+          "cfo@evilcorp.com",
+          "bob@evilcorp.com"
+        ]
+      },
+      {
+        "name": "IpAddress",
+        "null_ratio": 0.0,
+        "examples": [
+          "83.45.12.34",
+          "2.139.88.10",
+          "5.62.41.22"
+        ]
+      },
+      {
+        "name": "AppDisplayName",
+        "null_ratio": 0.0,
+        "examples": [
+          "Exchange Online",
+          "Microsoft 365 Admin Center",
+          "Azure Portal"
+        ]
+      },
+      {
+        "name": "ClientAppUsed",
+        "null_ratio": 0.0,
+        "examples": [
+          "Other clients",
+          "POP3",
+          "Browser"
+        ]
+      },
+      {
+        "name": "UserAgent",
+        "null_ratio": 0.0,
+        "examples": [
+          "Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36 Chrome/119.0 Mobile",
+          "Microsoft Office/16.0 (Windows NT 10.0; Microsoft Outlook 16.0.17029; Pro)",
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0"
+        ]
+      },
+      {
+        "name": "DeviceDetail.deviceId",
+        "null_ratio": 0.0,
+        "examples": [
+          "",
+          "20a04645-f329-4035-b1eb-b032590bc71d",
+          "7cd2890e-a721-49b2-a1be-3c62bc705168"
+        ]
+      },
+      {
+        "name": "CorrelationId",
+        "null_ratio": 0.0,
+        "examples": [
+          "bd77a80a-4299-4e6c-9662-79cb70712ee9",
+          "8d0e4573-33a7-4e55-acaa-fe4ee008572c",
+          "8090690b-6ce8-4c5d-a847-2d71326e2f26"
+        ]
+      },
+      {
+        "name": "ResultType",
+        "null_ratio": 0.0,
+        "examples": [
+          "0",
+          "50074",
+          "50058"
+        ]
+      },
+      {
+        "name": "Status.errorCode",
+        "null_ratio": 0.0,
+        "examples": [
+          "0",
+          "50074",
+          "50058"
+        ]
+      },
+      {
+        "name": "Status.failureReason",
+        "null_ratio": 0.0,
+        "examples": [
+          "",
+          "MFA required.",
+          "Token issuer anomaly detected."
+        ]
+      },
+      {
+        "name": "Status.additionalDetails",
+        "null_ratio": 0.0,
+        "examples": [
+          "",
+          "AccountLocked",
+          "MFARequired"
+        ]
+      },
+      {
+        "name": "RiskLevelAggregated",
+        "null_ratio": 0.0,
+        "examples": [
+          "none",
+          "low",
+          "medium"
+        ]
+      },
+      {
+        "name": "RiskState",
+        "null_ratio": 0.0,
+        "examples": [
+          "none",
+          "confirmedSafe",
+          "remediated"
+        ]
+      },
+      {
+        "name": "RiskDetail",
+        "null_ratio": 0.0,
+        "examples": [
+          "none",
+          "anonymousIPAddress",
+          "tokenIssuerAnomaly"
+        ]
+      },
+      {
+        "name": "Location.countryOrRegion",
+        "null_ratio": 0.0,
+        "examples": [
+          "ES",
+          "NL",
+          "FR"
+        ]
+      },
+      {
+        "name": "Location.state",
+        "null_ratio": 0.0,
+        "examples": [
+          "Catalonia",
+          "Madrid",
+          "North Holland"
+        ]
+      },
+      {
+        "name": "Location.city",
+        "null_ratio": 0.0,
+        "examples": [
+          "Barcelona",
+          "Madrid",
+          "Amsterdam"
+        ]
+      },
+      {
+        "name": "ConditionalAccessStatus",
+        "null_ratio": 0.0,
+        "examples": [
+          "success",
+          "unknown",
+          "notApplied"
+        ]
+      },
+      {
+        "name": "AuthenticationRequirement",
+        "null_ratio": 0.0,
+        "examples": [
+          "none",
+          "multiFactorAuthentication",
+          "singleFactorAuthentication"
+        ]
+      },
+      {
+        "name": "MfaDetail.authMethod",
+        "null_ratio": 0.0,
+        "examples": [
+          "",
+          "FIDO2",
+          "SMS"
+        ]
+      },
+      {
+        "name": "MfaDetail.authDetail",
+        "null_ratio": 0.0,
+        "examples": [
+          "OTP",
+          "Push",
+          ""
+        ]
+      },
+      {
+        "name": "ResourceDisplayName",
+        "null_ratio": 0.0,
+        "examples": [
+          "SharePoint",
+          "Office 365 Exchange Online",
+          "Microsoft Graph"
+        ]
+      },
+      {
+        "name": "TenantId",
+        "null_ratio": 0.0,
+        "examples": [
+          "65a4f49f-3e0d-4b25-a54c-006bee4907ee",
+          "67284799-3552-4b26-8153-bc2c2dfd0dfc",
+          "323ca24e-5388-4995-b638-1451a884e8ed"
+        ]
+      },
+      {
+        "name": "UserId",
+        "null_ratio": 0.0,
+        "examples": [
+          "2c9eb0ca-8572-4444-b8c0-2a66ccdd349f",
+          "f68f1e8b-1d02-4fea-a2d8-617ca02b70da",
+          "90082d89-c5f2-4c9f-88f7-07c95ed5aecc"
+        ]
+      },
+      {
+        "name": "SignInEventTypes",
+        "null_ratio": 0.0,
+        "examples": [
+          "nonInteractiveUser"
+        ]
+      },
+      {
+        "name": "AppliedConditionalAccessPolicies",
+        "null_ratio": 0.0,
+        "examples": [
+          "[{\"id\": \"3de41e92-8708-4fae-87fa-4c3b937534de\", \"displayName\": \"Require MFA for admins\", \"enforcedGrantControls\": [\"mfa\", \"compliantDevice\"], \"result\": \"failure\"}]",
+          "[]",
+          "[{\"id\": \"dce98a81-5e85-497b-8fb2-051892a1313b\", \"displayName\": \"Require compliant device\", \"enforcedGrantControls\": [\"mfa\", \"compliantDevice\"], \"result\": \"failure\"}, {\"id\": \"2ab214b6-c0a2-4f8c-bf7a-b9"
+        ]
+      },
+      {
+        "name": "AuthenticationDetails",
+        "null_ratio": 0.0,
+        "examples": [
+          "[{\"authenticationStepDateTime\": \"2026-01-08T15:49:00Z\", \"authenticationMethod\": \"Password\", \"authenticationMethodDetail\": \"Password\", \"authenticationStepResultDetail\": \"Success\", \"succeeded\": true}]",
+          "[{\"authenticationStepDateTime\": \"2026-01-07T18:22:00Z\", \"authenticationMethod\": \"Password\", \"authenticationMethodDetail\": \"Password\", \"authenticationStepResultDetail\": \"Success\", \"succeeded\": true}, {",
+          "[{\"authenticationStepDateTime\": \"2026-01-08T23:27:00Z\", \"authenticationMethod\": \"Password\", \"authenticationMethodDetail\": \"Password\", \"authenticationStepResultDetail\": \"Success\", \"succeeded\": true}]"
+        ]
+      },
+      {
+        "name": "ServicePrincipalId",
+        "null_ratio": 0.0,
+        "examples": [
+          "4fc99bcb-c209-4ae4-8b6d-b24e6d0a6819",
+          "5e717829-3507-4c0c-8860-6759d81c274d",
+          "96240381-b88b-43d9-9212-2fb7808d8ebf"
+        ]
+      },
+      {
+        "name": "ServicePrincipalName",
+        "null_ratio": 0.0,
+        "examples": [
+          "svc-payroll",
+          "svc-backup",
+          "svc-etl"
+        ]
+      },
+      {
+        "name": "ManagedIdentityId",
+        "null_ratio": 0.0,
+        "examples": [
+          "",
+          "96682b36-ce4a-4818-9219-6bf6bf970b5a",
+          "358fd5c3-dc6d-48e7-8935-4a5b7930ce91"
+        ]
+      }
+    ],
+    "n_sample": 30
+  },
+  "7": {
+    "columns": [
+      {
+        "name": "CreatedDateTime",
+        "null_ratio": 0.0,
+        "examples": [
+          "2025-12-12T05:53:00Z",
+          "2025-12-16T06:54:00Z",
+          "2026-01-04T01:18:00Z"
+        ]
+      },
+      {
+        "name": "UserPrincipalName",
+        "null_ratio": 0.0,
+        "examples": [
+          "svc.backup@evilcorp.com",
+          "bob@evilcorp.com",
+          "it.admin@evilcorp.com"
+        ]
+      },
+      {
+        "name": "IpAddress",
+        "null_ratio": 0.0,
+        "examples": [
+          "20.190.128.12",
+          "104.26.12.88",
+          "185.199.110.42"
+        ]
+      },
+      {
+        "name": "AppDisplayName",
+        "null_ratio": 0.0,
+        "examples": [
+          "Microsoft 365 Admin Center",
+          "Graph Explorer",
+          "SharePoint Online"
+        ]
+      },
+      {
+        "name": "ClientAppUsed",
+        "null_ratio": 0.0,
+        "examples": [
+          "Browser",
+          "Other clients",
+          "Exchange ActiveSync"
+        ]
+      },
+      {
+        "name": "UserAgent",
+        "null_ratio": 0.0,
+        "examples": [
+          "Microsoft Office/16.0 (Windows NT 10.0; Microsoft Outlook 16.0.17029; Pro)",
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0",
+          "Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36 Chrome/119.0 Mobile"
+        ]
+      },
+      {
+        "name": "DeviceDetail.deviceId",
+        "null_ratio": 0.0,
+        "examples": [
+          "a9ec3079-8abe-4d91-91c6-3ecf6a8389d7",
+          "04b3064b-f31a-4594-940c-f2596faac571",
+          ""
+        ]
+      },
+      {
+        "name": "CorrelationId",
+        "null_ratio": 0.0,
+        "examples": [
+          "a64e1f76-d502-435f-8ff0-54f33f348252",
+          "cb4024c3-5cf4-4f54-aa15-7a42f42c323d",
+          "2acc9814-f30b-4b17-9b28-c911bcdd857f"
+        ]
+      },
+      {
+        "name": "ResultType",
+        "null_ratio": 0.0,
+        "examples": [
+          "50076",
+          "50058",
+          "50053"
+        ]
+      },
+      {
+        "name": "Status.errorCode",
+        "null_ratio": 0.0,
+        "examples": [
+          "50076",
+          "50058",
+          "50053"
+        ]
+      },
+      {
+        "name": "Status.failureReason",
+        "null_ratio": 0.0,
+        "examples": [
+          "Token issuer anomaly detected.",
+          "Account is locked.",
+          "MFA required."
+        ]
+      },
+      {
+        "name": "Status.additionalDetails",
+        "null_ratio": 0.0,
+        "examples": [
+          "InvalidGrant",
+          "StrongAuthenticationRequired",
+          "MFARequired"
+        ]
+      },
+      {
+        "name": "RiskLevelAggregated",
+        "null_ratio": 0.0,
+        "examples": [
+          "none",
+          "low",
+          "medium"
+        ]
+      },
+      {
+        "name": "RiskState",
+        "null_ratio": 0.0,
+        "examples": [
+          "none",
+          "remediated",
+          "confirmedSafe"
+        ]
+      },
+      {
+        "name": "RiskDetail",
+        "null_ratio": 0.0,
+        "examples": [
+          "none",
+          "passwordSpray",
+          "unfamiliarFeatures"
+        ]
+      },
+      {
+        "name": "Location.countryOrRegion",
+        "null_ratio": 0.0,
+        "examples": [
+          "DE",
+          "ES",
+          "NL"
+        ]
+      },
+      {
+        "name": "Location.state",
+        "null_ratio": 0.0,
+        "examples": [
+          "Berlin",
+          "Madrid",
+          "North Holland"
+        ]
+      },
+      {
+        "name": "Location.city",
+        "null_ratio": 0.0,
+        "examples": [
+          "Berlin",
+          "Madrid",
+          "Amsterdam"
+        ]
+      },
+      {
+        "name": "ConditionalAccessStatus",
+        "null_ratio": 0.0,
+        "examples": [
+          "failure",
+          "unknown",
+          "notApplied"
+        ]
+      },
+      {
+        "name": "AuthenticationRequirement",
+        "null_ratio": 0.0,
+        "examples": [
+          "singleFactorAuthentication",
+          "multiFactorAuthentication",
+          "none"
+        ]
+      },
+      {
+        "name": "MfaDetail.authMethod",
+        "null_ratio": 0.0,
+        "examples": [
+          "FIDO2",
+          "SMS",
+          ""
+        ]
+      },
+      {
+        "name": "MfaDetail.authDetail",
+        "null_ratio": 0.0,
+        "examples": [
+          "",
+          "Push",
+          "OTP"
+        ]
+      },
+      {
+        "name": "ResourceDisplayName",
+        "null_ratio": 0.0,
+        "examples": [
+          "Office 365 Exchange Online",
+          "SharePoint",
+          "Microsoft Graph"
+        ]
+      },
+      {
+        "name": "TenantId",
+        "null_ratio": 0.0,
+        "examples": [
+          "4aac2eab-be35-4281-b17e-0dfa86b69ee3",
+          "f0df7d20-8880-45f6-b3fa-1f7a6bfc42a4",
+          "0755d86c-52fb-4560-a072-dd467fab2bf6"
+        ]
+      },
+      {
+        "name": "UserId",
+        "null_ratio": 0.0,
+        "examples": [
+          "d37b30fc-0bbe-4325-9128-542782bbece7",
+          "971b9490-ac20-4815-90e3-841ada95b16c",
+          "abab86ef-ea4e-450c-843a-9f12dda795be"
+        ]
+      },
+      {
+        "name": "SignInEventTypes",
+        "null_ratio": 0.0,
+        "examples": [
+          "nonInteractiveUser"
+        ]
+      },
+      {
+        "name": "AppliedConditionalAccessPolicies",
+        "null_ratio": 0.0,
+        "examples": [
+          "[]",
+          "[{\"id\": \"59362a31-7816-4050-aad0-91372190047f\", \"displayName\": \"Require MFA for admins\", \"enforcedGrantControls\": [\"compliantDevice\"], \"result\": \"failure\"}]",
+          "[{\"id\": \"8a48dc75-fead-47db-a5af-4162564a5757\", \"displayName\": \"Block legacy auth\", \"enforcedGrantControls\": [\"mfa\", \"compliantDevice\"], \"result\": \"success\"}, {\"id\": \"973abb48-39ea-4b18-ad43-87f1c36ec"
+        ]
+      },
+      {
+        "name": "AuthenticationDetails",
+        "null_ratio": 0.0,
+        "examples": [
+          "[{\"authenticationStepDateTime\": \"2026-01-08T07:42:00Z\", \"authenticationMethod\": \"Password\", \"authenticationMethodDetail\": \"Password\", \"authenticationStepResultDetail\": \"Success\", \"succeeded\": true}]",
+          "[{\"authenticationStepDateTime\": \"2026-01-09T06:48:00Z\", \"authenticationMethod\": \"Password\", \"authenticationMethodDetail\": \"Password\", \"authenticationStepResultDetail\": \"Success\", \"succeeded\": true}, {",
+          "[{\"authenticationStepDateTime\": \"2026-01-07T23:46:00Z\", \"authenticationMethod\": \"Password\", \"authenticationMethodDetail\": \"Password\", \"authenticationStepResultDetail\": \"Success\", \"succeeded\": true}, {"
+        ]
+      },
+      {
+        "name": "ServicePrincipalId",
+        "null_ratio": 0.0,
+        "examples": [
+          "fd81079c-d62c-46c8-bc5e-53e92525563d",
+          "09217a59-3792-43c4-a741-fef0ff4de75e",
+          "2ddef514-f520-4c89-8150-6cd42250597c"
+        ]
+      },
+      {
+        "name": "ServicePrincipalName",
+        "null_ratio": 0.0,
+        "examples": [
+          "svc-payroll",
+          "svc-etl",
+          "svc-backup"
+        ]
+      },
+      {
+        "name": "ManagedIdentityId",
+        "null_ratio": 0.0,
+        "examples": [
+          "",
+          "aeebf476-6482-4394-b945-e0ee839944a2",
+          "9fdccc58-2e8f-4dd6-b2f4-7606dde452d0"
+        ]
+      },
+      {
+        "name": "AuthenticationProtocol",
+        "null_ratio": 0.0,
+        "examples": [
+          "SAML",
+          "OAuth2.0"
+        ]
+      },
+      {
+        "name": "AuthenticationProcessingDetails",
+        "null_ratio": 0.0,
+        "examples": [
+          "[{\"key\": \"TokenProtection\", \"value\": \"disabled\"}]",
+          "[{\"key\": \"TokenProtection\", \"value\": \"enabled\"}]"
+        ]
+      }
+    ],
+    "n_sample": 30
+  }
+}

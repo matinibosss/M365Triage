@@ -1,0 +1,201 @@
+ts,epoch,source,user,ip,action,detail,ref
+2025-12-11T12:09:00+00:00,1765454940,signin,alice@evilcorp.com,20.190.128.12,signin_failure,app=Microsoft Teams client=POP3 status=50058 result=50058 error_code=50058 reason=Account is locked. country=US,6:20
+2025-12-11T15:19:00+00:00,1765466340,signin,cfo@evilcorp.com,185.199.110.42,signin_success,app=Exchange Online client=IMAP4 status=0 result=0 country=DE,4:9
+2025-12-11T18:24:00+00:00,1765477440,signin,cfo@evilcorp.com,185.199.110.42,signin_failure,app=Exchange Online client=Exchange ActiveSync status=50074 result=50074 error_code=50074 reason=Account is locked. country=ES,6:19
+2025-12-11T21:25:00+00:00,1765488300,signin,bob@evilcorp.com,83.45.12.33,signin_failure,app=Azure Portal client=IMAP4 status=50074 result=50074 error_code=50074 reason=Token issuer anomaly detected. country=NL,3:14
+2025-12-11T23:23:00+00:00,1765495380,signin,bob@evilcorp.com,20.190.128.12,signin_success,app=Azure Resource Manager client= status=0 result=0,5:14
+2025-12-12T00:03:00+00:00,1765497780,signin,cfo@evilcorp.com,104.26.12.88,signin_failure,app=Azure Portal client=Exchange ActiveSync status=50053 result=50053 error_code=50053 reason=Token issuer anomaly detected. country=US,4:7
+2025-12-12T02:32:00+00:00,1765506720,signin,svc.backup@evilcorp.com,5.62.41.22,signin_failure,app=Microsoft Teams client=Other clients status=50074 result=50074 error_code=50074 reason=Token issuer anomaly detected. country=NL,6:4
+2025-12-12T04:01:00+00:00,1765512060,signin,cfo@evilcorp.com,20.190.128.12,signin_success,app=Microsoft Graph client= status=50076 result=0,5:1
+2025-12-12T04:49:00+00:00,1765514940,signin,alice@evilcorp.com,83.45.12.34,signin_success,app=SharePoint Online client=IMAP4 status=0 result=0 country=US,6:11
+2025-12-12T05:53:00+00:00,1765518780,signin,svc.backup@evilcorp.com,20.190.128.12,signin_failure,app=Microsoft 365 Admin Center client=Browser status=50076 result=50076 error_code=50076 reason=Token issuer anomaly detected. country=DE,7:1
+2025-12-12T10:45:00+00:00,1765536300,signin,bob@evilcorp.com,5.62.41.22,signin_success,app=Microsoft Graph client= status=0 result=0,5:3
+2025-12-12T11:15:00+00:00,1765538100,signin,bob@evilcorp.com,2.139.88.10,signin_failure,app=Azure Resource Manager client= status=50076 result=50076 error_code=50076,5:12
+2025-12-12T15:14:00+00:00,1765552440,ual,bob@evilcorp.com,2.139.88.10,Consent to application,AzureActiveDirectory,1:6
+2025-12-12T17:02:00+00:00,1765558920,signin,cfo@evilcorp.com,5.62.41.22,signin_success,app=Azure Portal client=Exchange ActiveSync status=0 result=0 country=ES,7:6
+2025-12-12T19:32:00+00:00,1765567920,signin,it.admin@evilcorp.com,5.62.41.22,signin_failure,app=Graph Explorer client=IMAP4 status=50074 result=50074 error_code=50074 reason=Token issuer anomaly detected. country=ES,4:18
+2025-12-12T21:05:00+00:00,1765573500,ual,bob@evilcorp.com,20.190.128.12,MailItemsAccessed,Exchange,1:16
+2025-12-12T21:41:00+00:00,1765575660,signin,alice@evilcorp.com,83.45.12.34,signin_success,app=Microsoft Teams client=Mobile Apps and Desktop clients status=0 result=0 country=FR,3:12
+2025-12-12T21:47:00+00:00,1765576020,signin,bob@evilcorp.com,5.62.41.22,signin_success,app=Graph Explorer client=Other clients status=0 result=0 country=FR,3:3
+2025-12-13T04:05:00+00:00,1765598700,signin,bob@evilcorp.com,20.190.128.12,signin_success,app=SharePoint Online client=Exchange ActiveSync status=0 result=0 country=US,6:6
+2025-12-13T09:30:00+00:00,1765618200,signin,svc.backup@evilcorp.com,20.190.128.12,signin_success,app=Azure Resource Manager client= status=0 result=0,5:10
+2025-12-13T15:06:00+00:00,1765638360,signin,bob@evilcorp.com,83.45.12.33,signin_success,app=Azure Portal client=Browser status=0 result=0 country=US,3:19
+2025-12-13T18:42:00+00:00,1765651320,signin,cfo@evilcorp.com,83.45.12.34,signin_success,app=Microsoft 365 Admin Center client=Other clients status=0 result=0 country=ES,6:2
+2025-12-13T21:02:00+00:00,1765659720,signin,cfo@evilcorp.com,83.45.12.34,signin_failure,app=Microsoft Graph client= status=50076 result=50076 error_code=50076,5:7
+2025-12-13T21:30:00+00:00,1765661400,signin,alice@evilcorp.com,2.139.88.10,signin_failure,app=Microsoft Graph client= status=0 result=50076 error_code=50076,5:18
+2025-12-13T21:30:00+00:00,1765661400,ual,svc.backup@evilcorp.com,20.190.128.12,Add service principal,AzureActiveDirectory,1:5
+2025-12-13T21:36:00+00:00,1765661760,signin,bob@evilcorp.com,83.45.12.34,signin_success,app=Microsoft Teams client=Browser status=0 result=0 country=NL,4:23
+2025-12-14T07:16:00+00:00,1765696560,signin,it.admin@evilcorp.com,5.62.41.22,signin_success,app=SharePoint Online client=Browser status=0 result=0 country=FR,6:23
+2025-12-14T09:52:00+00:00,1765705920,signin,alice@evilcorp.com,185.199.110.42,signin_failure,app=SharePoint Online client=POP3 status=50058 result=50058 error_code=50058 reason=User did not complete MFA. country=US,3:30
+2025-12-14T10:53:00+00:00,1765709580,signin,cfo@evilcorp.com,2.139.88.10,signin_failure,app=Microsoft Teams client=Browser status=50053 result=50053 error_code=50053 reason=Invalid username or password. country=FR,6:10
+2025-12-14T12:11:00+00:00,1765714260,signin,alice@evilcorp.com,2.139.88.10,signin_failure,app=Azure Portal client=Other clients status=50074 result=50074 error_code=50074 reason=MFA required. country=FR,6:27
+2025-12-14T13:06:00+00:00,1765717560,signin,it.admin@evilcorp.com,185.199.110.42,signin_failure,app=Exchange Online client=Browser status=50053 result=50053 error_code=50053 reason=Token issuer anomaly detected. country=NL,7:4
+2025-12-14T14:07:00+00:00,1765721220,signin,cfo@evilcorp.com,5.62.41.22,signin_failure,app=SharePoint Online client=Browser status=50058 result=50058 error_code=50058 reason=MFA required. country=FR,3:7
+2025-12-14T15:31:00+00:00,1765726260,signin,it.admin@evilcorp.com,83.45.12.33,signin_failure,app=Microsoft Teams client=Browser status=50074 result=50074 error_code=50074 reason=Invalid username or password. country=FR,4:21
+2025-12-14T19:05:00+00:00,1765739100,ual,svc.backup@evilcorp.com,83.45.12.33,Consent to application,AzureActiveDirectory,1:7
+2025-12-15T04:02:00+00:00,1765771320,signin,svc.backup@evilcorp.com,83.45.12.34,signin_failure,app=Graph Explorer client=Browser status=50074 result=50074 error_code=50074 reason=Account is locked. country=FR,3:11
+2025-12-15T09:09:00+00:00,1765789740,ual,alice@evilcorp.com,83.45.12.34,Add-MailboxPermission,Exchange,1:24
+2025-12-15T10:42:00+00:00,1765795320,signin,bob@evilcorp.com,5.62.41.22,signin_failure,app=Exchange Online client=Exchange ActiveSync status=50053 result=50053 error_code=50053 reason=Account is locked. country=NL,6:28
+2025-12-15T13:33:00+00:00,1765805580,ual,cfo@evilcorp.com,83.45.12.33,UserLoggedIn,AzureActiveDirectory,1:8
+2025-12-16T04:16:00+00:00,1765858560,signin,alice@evilcorp.com,20.190.128.12,signin_success,app=Microsoft 365 Admin Center client=Exchange ActiveSync status=0 result=0 country=DE,4:12
+2025-12-16T06:54:00+00:00,1765868040,signin,bob@evilcorp.com,104.26.12.88,signin_failure,app=Graph Explorer client=Browser status=50058 result=50058 error_code=50058 reason=Account is locked. country=ES,7:2
+2025-12-16T09:52:00+00:00,1765878720,signin,alice@evilcorp.com,104.26.12.88,signin_failure,app=SharePoint Online client=Exchange ActiveSync status=50053 result=50053 error_code=50053 reason=User did not complete MFA. country=DE,3:4
+2025-12-16T15:07:00+00:00,1765897620,signin,it.admin@evilcorp.com,5.62.41.22,signin_success,app=Microsoft 365 Admin Center client=Other clients status=0 result=0 country=US,4:16
+2025-12-16T20:04:00+00:00,1765915440,signin,cfo@evilcorp.com,83.45.12.34,signin_success,app=SharePoint Online client=Exchange ActiveSync status=0 result=0 country=ES,4:3
+2025-12-17T04:17:00+00:00,1765945020,ual,alice@evilcorp.com,83.45.12.34,MailItemsAccessed,Exchange,1:4
+2025-12-17T09:43:00+00:00,1765964580,signin,bob@evilcorp.com,5.62.41.22,signin_failure,app=Microsoft Teams client=Browser status=50074 result=50074 error_code=50074 reason=MFA required. country=FR,7:22
+2025-12-17T12:47:00+00:00,1765975620,ual,alice@evilcorp.com,185.199.110.42,Add member to role,AzureActiveDirectory,1:35
+2025-12-17T14:27:00+00:00,1765981620,signin,,20.190.128.12,signin_failure,app=Microsoft 365 Admin Center client= status=50076 result=50053 error_code=50053,2:12
+2025-12-17T16:30:00+00:00,1765989000,signin,,83.45.12.33,signin_success,app=Microsoft 365 Admin Center client= status=0 result=0,2:11
+2025-12-17T23:36:00+00:00,1766014560,ual,alice@evilcorp.com,5.62.41.22,Send,Exchange,1:22
+2025-12-18T01:18:00+00:00,1766020680,signin,it.admin@evilcorp.com,20.190.128.12,signin_success,app=Azure Portal client=Browser status=0 result=0 country=ES,6:25
+2025-12-18T01:37:00+00:00,1766021820,signin,bob@evilcorp.com,83.45.12.33,signin_failure,app=Microsoft 365 Admin Center client=Browser status=50058 result=50058 error_code=50058 reason=Invalid username or password. country=NL,3:28
+2025-12-18T04:37:00+00:00,1766032620,ual,cfo@evilcorp.com,104.26.12.88,MailItemsAccessed,Exchange,1:21
+2025-12-18T06:43:00+00:00,1766040180,signin,,2.139.88.10,signin_failure,app=SharePoint Online client= status=50053 result=50076 error_code=50076 reason=MFA required.,2:5
+2025-12-18T06:53:00+00:00,1766040780,signin,svc.backup@evilcorp.com,20.190.128.12,signin_failure,app=Azure Resource Manager client= status=0 result=50076 error_code=50076,5:13
+2025-12-18T08:10:00+00:00,1766045400,signin,cfo@evilcorp.com,5.62.41.22,signin_success,app=Azure Portal client=Other clients status=0 result=0 country=DE,4:2
+2025-12-18T08:20:00+00:00,1766046000,ual,bob@evilcorp.com,104.26.12.88,Send,Exchange,1:38
+2025-12-18T09:30:00+00:00,1766050200,signin,it.admin@evilcorp.com,5.62.41.22,signin_failure,app=Microsoft 365 Admin Center client=Exchange ActiveSync status=50058 result=50058 error_code=50058 reason=Invalid username or password. country=FR,7:11
+2025-12-18T13:47:00+00:00,1766065620,ual,cfo@evilcorp.com,185.199.110.42,FileAccessed,SharePoint,1:26
+2025-12-18T14:47:00+00:00,1766069220,ual,svc.backup@evilcorp.com,83.45.12.33,FileDownloaded,SharePoint,1:13
+2025-12-18T15:58:00+00:00,1766073480,ual,cfo@evilcorp.com,5.62.41.22,Send,Exchange,1:32
+2025-12-18T18:26:00+00:00,1766082360,signin,bob@evilcorp.com,20.190.128.12,signin_failure,app=SharePoint Online client=Exchange ActiveSync status=50058 result=50058 error_code=50058 reason=Token issuer anomaly detected. country=ES,7:26
+2025-12-18T19:04:00+00:00,1766084640,signin,svc.backup@evilcorp.com,104.26.12.88,signin_success,app=Azure Portal client=Browser status=0 result=0 country=DE,7:21
+2025-12-19T02:42:00+00:00,1766112120,signin,it.admin@evilcorp.com,20.190.128.12,signin_failure,app=Microsoft 365 Admin Center client=Browser status=50058 result=50058 error_code=50058 reason=Invalid username or password. country=ES,6:26
+2025-12-19T04:43:00+00:00,1766119380,signin,svc.backup@evilcorp.com,5.62.41.22,signin_failure,app=Graph Explorer client=Exchange ActiveSync status=50058 result=50058 error_code=50058 reason=Invalid username or password. country=FR,4:10
+2025-12-19T06:19:00+00:00,1766125140,signin,cfo@evilcorp.com,104.26.12.88,signin_success,app=Microsoft Graph client= status=0 result=0,5:6
+2025-12-19T06:30:00+00:00,1766125800,signin,alice@evilcorp.com,20.190.128.12,signin_failure,app=Graph Explorer client=IMAP4 status=50058 result=50058 error_code=50058 reason=Token issuer anomaly detected. country=ES,6:21
+2025-12-19T08:19:00+00:00,1766132340,signin,alice@evilcorp.com,83.45.12.33,signin_failure,app=Microsoft Teams client=IMAP4 status=50053 result=50053 error_code=50053 reason=Token issuer anomaly detected. country=ES,7:9
+2025-12-19T18:48:00+00:00,1766170080,signin,cfo@evilcorp.com,20.190.128.12,signin_failure,app=SharePoint Online client=Browser status=50053 result=50053 error_code=50053 reason=MFA required. country=US,3:22
+2025-12-19T19:10:00+00:00,1766171400,signin,bob@evilcorp.com,20.190.128.12,signin_failure,app=Azure Portal client=IMAP4 status=50058 result=50058 error_code=50058 reason=Invalid username or password. country=US,4:4
+2025-12-19T21:49:00+00:00,1766180940,signin,,2.139.88.10,signin_success,app=Microsoft 365 Admin Center client= status=50053 result=0 reason=MFA required.,2:2
+2025-12-20T10:29:00+00:00,1766226540,ual,svc.backup@evilcorp.com,2.139.88.10,Add member to role,AzureActiveDirectory,1:39
+2025-12-20T10:32:00+00:00,1766226720,signin,cfo@evilcorp.com,185.199.110.42,signin_success,app=SharePoint Online client=Other clients status=0 result=0 country=US,3:24
+2025-12-20T15:55:00+00:00,1766246100,signin,cfo@evilcorp.com,83.45.12.33,signin_success,app=Azure Portal client=Other clients status=0 result=0 country=ES,4:29
+2025-12-20T17:18:00+00:00,1766251080,signin,it.admin@evilcorp.com,2.139.88.10,signin_success,app=Azure Portal client=IMAP4 status=0 result=0 country=ES,3:27
+2025-12-20T17:48:00+00:00,1766252880,signin,svc.backup@evilcorp.com,5.62.41.22,signin_failure,app=Microsoft 365 Admin Center client=POP3 status=50053 result=50053 error_code=50053 reason=User did not complete MFA. country=ES,4:8
+2025-12-20T21:39:00+00:00,1766266740,ual,it.admin@evilcorp.com,5.62.41.22,FileDownloaded,SharePoint,1:10
+2025-12-20T23:23:00+00:00,1766272980,ual,alice@evilcorp.com,185.199.110.42,UserLoggedIn,AzureActiveDirectory,1:15
+2025-12-21T00:41:00+00:00,1766277660,signin,cfo@evilcorp.com,185.199.110.42,signin_success,app=Microsoft 365 Admin Center client=Other clients status=0 result=0 country=DE,7:7
+2025-12-21T08:42:00+00:00,1766306520,signin,it.admin@evilcorp.com,2.139.88.10,signin_failure,app=Azure Portal client=Exchange ActiveSync status=50058 result=50058 error_code=50058 reason=User did not complete MFA. country=US,7:14
+2025-12-21T10:05:00+00:00,1766311500,signin,it.admin@evilcorp.com,20.190.128.12,signin_success,app=Microsoft Graph client= status=0 result=0,5:5
+2025-12-21T11:21:00+00:00,1766316060,signin,bob@evilcorp.com,83.45.12.34,signin_failure,app=Exchange Online client=Other clients status=50074 result=50074 error_code=50074 reason=MFA required. country=FR,3:13
+2025-12-21T15:57:00+00:00,1766332620,signin,it.admin@evilcorp.com,20.190.128.12,signin_success,app=Microsoft 365 Admin Center client=Browser status=0 result=0 country=US,4:1
+2025-12-21T16:01:00+00:00,1766332860,signin,cfo@evilcorp.com,20.190.128.12,signin_failure,app=SharePoint Online client=POP3 status=50076 result=50076 error_code=50076 reason=MFA required. country=NL,4:5
+2025-12-21T16:28:00+00:00,1766334480,signin,it.admin@evilcorp.com,83.45.12.34,signin_failure,app=Exchange Online client=Mobile Apps and Desktop clients status=50053 result=50053 error_code=50053 reason=User did not complete MFA. country=NL,3:8
+2025-12-21T18:14:00+00:00,1766340840,signin,it.admin@evilcorp.com,104.26.12.88,signin_failure,app=Graph Explorer client=Exchange ActiveSync status=50053 result=50053 error_code=50053 reason=User did not complete MFA. country=US,6:13
+2025-12-21T23:32:00+00:00,1766359920,ual,alice@evilcorp.com,83.45.12.33,Set-Mailbox,Exchange,1:11
+2025-12-22T03:00:00+00:00,1766372400,signin,alice@evilcorp.com,83.45.12.33,signin_failure,app=Graph Explorer client=POP3 status=50074 result=50074 error_code=50074 reason=Account is locked. country=ES,4:11
+2025-12-22T03:34:00+00:00,1766374440,signin,cfo@evilcorp.com,5.62.41.22,signin_success,app=Microsoft Teams client=Browser status=0 result=0 country=US,4:13
+2025-12-22T03:40:00+00:00,1766374800,signin,it.admin@evilcorp.com,20.190.128.12,signin_success,app=Microsoft Graph client= status=0 result=0,5:2
+2025-12-22T03:59:00+00:00,1766375940,ual,bob@evilcorp.com,185.199.110.42,Set-Mailbox,Exchange,1:3
+2025-12-22T07:46:00+00:00,1766389560,ual,bob@evilcorp.com,104.26.12.88,FileAccessed,SharePoint,1:17
+2025-12-22T13:18:00+00:00,1766409480,signin,,2.139.88.10,signin_success,app=Graph Explorer client= status=0 result=0 reason=MFA required.,2:8
+2025-12-22T13:34:00+00:00,1766410440,signin,,20.190.128.12,signin_failure,app=Microsoft 365 Admin Center client= status=0 result=50076 error_code=50076 reason=MFA required.,2:13
+2025-12-22T23:31:00+00:00,1766446260,ual,svc.backup@evilcorp.com,20.190.128.12,SharingSet,SharePoint,1:14
+2025-12-23T00:59:00+00:00,1766451540,signin,svc.backup@evilcorp.com,185.199.110.42,signin_failure,app=Microsoft Teams client=Browser status=50058 result=50058 error_code=50058 reason=MFA required. country=FR,6:5
+2025-12-23T01:31:00+00:00,1766453460,ual,it.admin@evilcorp.com,185.199.110.42,FileAccessed,SharePoint,1:30
+2025-12-23T01:41:00+00:00,1766454060,signin,it.admin@evilcorp.com,2.139.88.10,signin_failure,app=Graph Explorer client=IMAP4 status=50076 result=50076 error_code=50076 reason=Invalid username or password. country=DE,4:17
+2025-12-23T03:59:00+00:00,1766462340,signin,alice@evilcorp.com,5.62.41.22,signin_failure,app=SharePoint Online client=Exchange ActiveSync status=50058 result=50058 error_code=50058 reason=Token issuer anomaly detected. country=NL,7:10
+2025-12-23T05:16:00+00:00,1766466960,ual,bob@evilcorp.com,83.45.12.33,UserLoggedIn,AzureActiveDirectory,1:20
+2025-12-23T07:31:00+00:00,1766475060,signin,it.admin@evilcorp.com,83.45.12.34,signin_success,app=Graph Explorer client=POP3 status=0 result=0 country=ES,7:16
+2025-12-23T11:39:00+00:00,1766489940,signin,svc.backup@evilcorp.com,104.26.12.88,signin_success,app=Azure Portal client=Mobile Apps and Desktop clients status=0 result=0 country=ES,7:15
+2025-12-23T13:18:00+00:00,1766495880,signin,it.admin@evilcorp.com,83.45.12.33,signin_failure,app=Graph Explorer client=Mobile Apps and Desktop clients status=50076 result=50076 error_code=50076 reason=User did not complete MFA. country=FR,3:21
+2025-12-23T14:02:00+00:00,1766498520,signin,,83.45.12.33,signin_success,app=SharePoint Online client= status=0 result=0 reason=MFA required.,2:7
+2025-12-23T15:16:00+00:00,1766502960,signin,svc.backup@evilcorp.com,185.199.110.42,signin_success,app=Azure Portal client=Exchange ActiveSync status=0 result=0 country=FR,3:9
+2025-12-23T19:03:00+00:00,1766516580,signin,alice@evilcorp.com,83.45.12.34,signin_failure,app=SharePoint Online client=Other clients status=50074 result=50074 error_code=50074 reason=User did not complete MFA. country=US,4:19
+2025-12-23T21:08:00+00:00,1766524080,signin,alice@evilcorp.com,83.45.12.34,signin_success,app=Azure Resource Manager client= status=0 result=0,5:8
+2025-12-24T01:17:00+00:00,1766539020,signin,cfo@evilcorp.com,5.62.41.22,signin_success,app=Microsoft 365 Admin Center client=Mobile Apps and Desktop clients status=0 result=0 country=ES,4:28
+2025-12-24T03:17:00+00:00,1766546220,signin,it.admin@evilcorp.com,83.45.12.34,signin_success,app=Microsoft Teams client=POP3 status=0 result=0 country=NL,6:8
+2025-12-24T03:36:00+00:00,1766547360,signin,svc.backup@evilcorp.com,2.139.88.10,signin_success,app=Graph Explorer client=Exchange ActiveSync status=0 result=0 country=ES,6:12
+2025-12-24T03:59:00+00:00,1766548740,signin,svc.backup@evilcorp.com,83.45.12.34,signin_success,app=Exchange Online client=Other clients status=0 result=0 country=ES,6:1
+2025-12-24T04:18:00+00:00,1766549880,ual,it.admin@evilcorp.com,83.45.12.33,Consent to application,AzureActiveDirectory,1:23
+2025-12-24T06:24:00+00:00,1766557440,signin,alice@evilcorp.com,185.199.110.42,signin_success,app=Exchange Online client=IMAP4 status=0 result=0 country=US,6:15
+2025-12-24T08:36:00+00:00,1766565360,signin,svc.backup@evilcorp.com,83.45.12.34,signin_failure,app=Azure Resource Manager client= status=0 result=50076 error_code=50076,5:9
+2025-12-24T14:59:00+00:00,1766588340,ual,alice@evilcorp.com,83.45.12.34,FileAccessed,SharePoint,1:2
+2025-12-24T18:26:00+00:00,1766600760,signin,cfo@evilcorp.com,2.139.88.10,signin_failure,app=Azure Portal client=POP3 status=50074 result=50074 error_code=50074 reason=MFA required. country=ES,6:3
+2025-12-24T19:48:00+00:00,1766605680,signin,,5.62.41.22,signin_success,app=Microsoft Teams client= status=0 result=0 reason=Invalid secret.,2:6
+2025-12-24T21:00:00+00:00,1766610000,signin,bob@evilcorp.com,2.139.88.10,signin_failure,app=Exchange Online client=Other clients status=50076 result=50076 error_code=50076 reason=Token issuer anomaly detected. country=FR,6:17
+2025-12-25T00:18:00+00:00,1766621880,signin,it.admin@evilcorp.com,20.190.128.12,signin_failure,app=SharePoint Online client=IMAP4 status=50076 result=50076 error_code=50076 reason=Invalid username or password. country=US,4:24
+2025-12-25T00:30:00+00:00,1766622600,signin,bob@evilcorp.com,83.45.12.33,signin_failure,app=Microsoft Teams client=Mobile Apps and Desktop clients status=50074 result=50074 error_code=50074 reason=User did not complete MFA. country=US,7:29
+2025-12-25T04:08:00+00:00,1766635680,signin,bob@evilcorp.com,83.45.12.34,signin_success,app=Microsoft Teams client=Browser status=0 result=0 country=US,6:7
+2025-12-25T07:03:00+00:00,1766646180,signin,alice@evilcorp.com,5.62.41.22,signin_success,app=Azure Portal client=IMAP4 status=0 result=0 country=US,7:27
+2025-12-25T07:13:00+00:00,1766646780,signin,bob@evilcorp.com,2.139.88.10,signin_failure,app=SharePoint Online client=Exchange ActiveSync status=50074 result=50074 error_code=50074 reason=MFA required. country=NL,7:12
+2025-12-25T08:11:00+00:00,1766650260,ual,bob@evilcorp.com,83.45.12.34,Add-MailboxPermission,Exchange,1:37
+2025-12-25T09:56:00+00:00,1766656560,signin,cfo@evilcorp.com,5.62.41.22,signin_success,app=Microsoft 365 Admin Center client=Browser status=0 result=0 country=US,6:22
+2025-12-25T10:17:00+00:00,1766657820,signin,cfo@evilcorp.com,20.190.128.12,signin_failure,app=Graph Explorer client=POP3 status=50053 result=50053 error_code=50053 reason=User did not complete MFA. country=ES,3:26
+2025-12-25T11:26:00+00:00,1766661960,signin,svc.backup@evilcorp.com,5.62.41.22,signin_success,app=Microsoft Graph client= status=0 result=0,5:4
+2025-12-25T19:44:00+00:00,1766691840,signin,alice@evilcorp.com,104.26.12.88,signin_success,app=Azure Resource Manager client= status=50076 result=0,5:17
+2025-12-25T20:48:00+00:00,1766695680,signin,svc.backup@evilcorp.com,20.190.128.12,signin_failure,app=Graph Explorer client=Other clients status=50058 result=50058 error_code=50058 reason=MFA required. country=NL,3:10
+2025-12-25T22:41:00+00:00,1766702460,signin,svc.backup@evilcorp.com,83.45.12.34,signin_failure,app=Microsoft 365 Admin Center client=Mobile Apps and Desktop clients status=50076 result=50076 error_code=50076 reason=Account is locked. country=ES,3:29
+2025-12-26T00:47:00+00:00,1766710020,ual,bob@evilcorp.com,83.45.12.33,New-InboxRule,Exchange,1:25
+2025-12-26T03:16:00+00:00,1766718960,signin,svc.backup@evilcorp.com,5.62.41.22,signin_failure,app=Microsoft Teams client=Mobile Apps and Desktop clients status=50076 result=50076 error_code=50076 reason=User did not complete MFA. country=FR,3:6
+2025-12-26T05:46:00+00:00,1766727960,signin,cfo@evilcorp.com,104.26.12.88,signin_failure,app=Microsoft 365 Admin Center client=Mobile Apps and Desktop clients status=50076 result=50076 error_code=50076 reason=Account is locked. country=DE,7:24
+2025-12-26T07:33:00+00:00,1766734380,signin,it.admin@evilcorp.com,2.139.88.10,signin_failure,app=Azure Portal client=Exchange ActiveSync status=50058 result=50058 error_code=50058 reason=Account is locked. country=DE,6:30
+2025-12-26T13:33:00+00:00,1766755980,signin,,2.139.88.10,signin_failure,app=Microsoft 365 Admin Center client= status=50076 result=50076 error_code=50076 reason=MFA required.,2:1
+2025-12-26T13:45:00+00:00,1766756700,ual,it.admin@evilcorp.com,5.62.41.22,MailItemsAccessed,Exchange,1:27
+2025-12-27T01:34:00+00:00,1766799240,signin,cfo@evilcorp.com,20.190.128.12,signin_failure,app=Microsoft Teams client=Browser status=50053 result=50053 error_code=50053 reason=Account is locked. country=FR,3:2
+2025-12-27T10:41:00+00:00,1766832060,signin,cfo@evilcorp.com,83.45.12.34,signin_failure,app=Exchange Online client=Browser status=50074 result=50074 error_code=50074 reason=Invalid username or password. country=US,4:15
+2025-12-27T21:05:00+00:00,1766869500,signin,cfo@evilcorp.com,83.45.12.33,signin_failure,app=SharePoint Online client=Mobile Apps and Desktop clients status=50053 result=50053 error_code=50053 reason=Invalid username or password. country=DE,4:25
+2025-12-27T21:10:00+00:00,1766869800,signin,alice@evilcorp.com,185.199.110.42,signin_success,app=Graph Explorer client=Browser status=0 result=0 country=US,4:27
+2025-12-28T00:05:00+00:00,1766880300,signin,,104.26.12.88,signin_failure,app=Exchange Online client= status=0 result=50053 error_code=50053 reason=Invalid secret.,2:14
+2025-12-28T02:12:00+00:00,1766887920,ual,cfo@evilcorp.com,104.26.12.88,Add-MailboxPermission,Exchange,1:28
+2025-12-28T04:50:00+00:00,1766897400,signin,,2.139.88.10,signin_failure,app=Microsoft Teams client= status=0 result=50053 error_code=50053 reason=Invalid secret.,2:4
+2025-12-28T05:02:00+00:00,1766898120,signin,alice@evilcorp.com,185.199.110.42,signin_failure,app=Azure Portal client=Exchange ActiveSync status=50076 result=50076 error_code=50076 reason=Token issuer anomaly detected. country=ES,6:18
+2025-12-28T09:13:00+00:00,1766913180,signin,,185.199.110.42,signin_failure,app=Microsoft 365 Admin Center client= status=50076 result=50076 error_code=50076 reason=MFA required.,2:15
+2025-12-28T16:14:00+00:00,1766938440,signin,,83.45.12.33,signin_failure,app=SharePoint Online client= status=50076 result=50076 error_code=50076 reason=MFA required.,2:20
+2025-12-28T21:32:00+00:00,1766957520,signin,bob@evilcorp.com,185.199.110.42,signin_success,app=Microsoft Teams client=Other clients status=0 result=0 country=ES,4:14
+2025-12-28T21:51:00+00:00,1766958660,signin,alice@evilcorp.com,2.139.88.10,signin_success,app=Microsoft Teams client=Exchange ActiveSync status=0 result=0 country=NL,7:20
+2025-12-29T02:40:00+00:00,1766976000,signin,cfo@evilcorp.com,20.190.128.12,signin_failure,app=Exchange Online client=Exchange ActiveSync status=50076 result=50076 error_code=50076 reason=Token issuer anomaly detected. country=FR,3:23
+2025-12-29T09:57:00+00:00,1767002220,signin,it.admin@evilcorp.com,104.26.12.88,signin_success,app=Microsoft Teams client=Browser status=0 result=0 country=DE,4:22
+2025-12-29T11:05:00+00:00,1767006300,signin,it.admin@evilcorp.com,83.45.12.33,signin_failure,app=Microsoft Teams client=Exchange ActiveSync status=50074 result=50074 error_code=50074 reason=Token issuer anomaly detected. country=ES,7:8
+2025-12-29T11:35:00+00:00,1767008100,signin,cfo@evilcorp.com,83.45.12.34,signin_success,app=Graph Explorer client=Browser status=0 result=0 country=FR,4:30
+2025-12-29T11:58:00+00:00,1767009480,signin,,83.45.12.33,signin_success,app=Microsoft Teams client= status=0 result=0 reason=MFA required.,2:17
+2025-12-29T13:12:00+00:00,1767013920,signin,it.admin@evilcorp.com,185.199.110.42,signin_success,app=Microsoft 365 Admin Center client=IMAP4 status=0 result=0 country=ES,3:20
+2025-12-29T15:51:00+00:00,1767023460,signin,,104.26.12.88,signin_failure,app=Exchange Online client= status=50053 result=50076 error_code=50076 reason=MFA required.,2:19
+2025-12-29T18:52:00+00:00,1767034320,ual,alice@evilcorp.com,104.26.12.88,MailItemsAccessed,Exchange,1:9
+2025-12-29T19:26:00+00:00,1767036360,signin,it.admin@evilcorp.com,83.45.12.33,signin_failure,app=Azure Portal client=Other clients status=50058 result=50058 error_code=50058 reason=Token issuer anomaly detected. country=ES,4:26
+2025-12-29T20:52:00+00:00,1767041520,signin,,2.139.88.10,signin_failure,app=Microsoft 365 Admin Center client= status=50053 result=50076 error_code=50076,2:9
+2025-12-29T21:44:00+00:00,1767044640,signin,alice@evilcorp.com,83.45.12.34,signin_failure,app=Graph Explorer client=Browser status=50076 result=50076 error_code=50076 reason=Invalid username or password. country=ES,4:20
+2025-12-30T00:35:00+00:00,1767054900,ual,svc.backup@evilcorp.com,83.45.12.33,Add service principal,AzureActiveDirectory,1:29
+2025-12-30T01:09:00+00:00,1767056940,signin,cfo@evilcorp.com,2.139.88.10,signin_failure,app=Microsoft Teams client=Mobile Apps and Desktop clients status=50076 result=50076 error_code=50076 reason=MFA required. country=ES,6:14
+2025-12-30T14:11:00+00:00,1767103860,signin,it.admin@evilcorp.com,2.139.88.10,signin_success,app=Exchange Online client=Other clients status=0 result=0 country=US,3:25
+2025-12-30T14:53:00+00:00,1767106380,signin,svc.backup@evilcorp.com,185.199.110.42,signin_failure,app=Graph Explorer client=Browser status=50053 result=50053 error_code=50053 reason=Account is locked. country=DE,3:1
+2025-12-30T15:49:00+00:00,1767109740,signin,,83.45.12.33,signin_failure,app=Azure Portal client= status=0 result=50053 error_code=50053 reason=MFA required.,2:3
+2025-12-30T17:33:00+00:00,1767115980,signin,it.admin@evilcorp.com,2.139.88.10,signin_success,app=Microsoft Graph client= status=0 result=0,5:16
+2025-12-31T05:34:00+00:00,1767159240,signin,cfo@evilcorp.com,83.45.12.33,signin_failure,app=Graph Explorer client=Browser status=50074 result=50074 error_code=50074 reason=Invalid username or password. country=ES,3:15
+2025-12-31T06:10:00+00:00,1767161400,ual,alice@evilcorp.com,83.45.12.34,UserLoggedIn,AzureActiveDirectory,1:33
+2025-12-31T07:50:00+00:00,1767167400,ual,alice@evilcorp.com,104.26.12.88,FileAccessed,SharePoint,1:12
+2025-12-31T14:17:00+00:00,1767190620,ual,bob@evilcorp.com,83.45.12.33,Send,Exchange,1:19
+2025-12-31T15:18:00+00:00,1767194280,signin,cfo@evilcorp.com,104.26.12.88,signin_success,app=Microsoft Teams client=IMAP4 status=0 result=0 country=DE,6:9
+2025-12-31T17:32:00+00:00,1767202320,signin,cfo@evilcorp.com,83.45.12.33,signin_failure,app=Graph Explorer client=Mobile Apps and Desktop clients status=50058 result=50058 error_code=50058 reason=Invalid username or password. country=US,6:24
+2025-12-31T23:38:00+00:00,1767224280,signin,cfo@evilcorp.com,83.45.12.33,signin_failure,app=Microsoft 365 Admin Center client=Exchange ActiveSync status=50053 result=50053 error_code=50053 reason=MFA required. country=ES,7:25
+2026-01-01T05:56:00+00:00,1767246960,signin,it.admin@evilcorp.com,104.26.12.88,signin_failure,app=Exchange Online client=Other clients status=50074 result=50074 error_code=50074 reason=Token issuer anomaly detected. country=ES,7:5
+2026-01-01T08:15:00+00:00,1767255300,ual,alice@evilcorp.com,5.62.41.22,Send,Exchange,1:40
+2026-01-01T10:19:00+00:00,1767262740,signin,bob@evilcorp.com,83.45.12.34,signin_success,app=Azure Resource Manager client= status=0 result=0,5:20
+2026-01-01T15:51:00+00:00,1767282660,signin,it.admin@evilcorp.com,83.45.12.34,signin_failure,app=Exchange Online client=Mobile Apps and Desktop clients status=50058 result=50058 error_code=50058 reason=Account is locked. country=DE,7:18
+2026-01-01T16:36:00+00:00,1767285360,signin,cfo@evilcorp.com,20.190.128.12,signin_failure,app=Azure Resource Manager client= status=0 result=50076 error_code=50076,5:15
+2026-01-01T18:23:00+00:00,1767291780,signin,svc.backup@evilcorp.com,5.62.41.22,signin_failure,app=Azure Portal client=Mobile Apps and Desktop clients status=50076 result=50076 error_code=50076 reason=User did not complete MFA. country=FR,3:5
+2026-01-02T00:40:00+00:00,1767314400,signin,,104.26.12.88,signin_failure,app=Azure Portal client= status=0 result=50053 error_code=50053 reason=Invalid secret.,2:18
+2026-01-02T02:56:00+00:00,1767322560,signin,it.admin@evilcorp.com,185.199.110.42,signin_failure,app=Microsoft Teams client=Browser status=50053 result=50053 error_code=50053 reason=MFA required. country=FR,7:28
+2026-01-02T03:48:00+00:00,1767325680,signin,bob@evilcorp.com,83.45.12.34,signin_success,app=Graph Explorer client=Exchange ActiveSync status=0 result=0 country=NL,7:13
+2026-01-02T05:27:00+00:00,1767331620,signin,it.admin@evilcorp.com,2.139.88.10,signin_success,app=Microsoft Teams client=Mobile Apps and Desktop clients status=0 result=0 country=NL,6:16
+2026-01-02T08:59:00+00:00,1767344340,signin,svc.backup@evilcorp.com,83.45.12.34,signin_success,app=Microsoft Graph client= status=50076 result=0,5:11
+2026-01-02T18:00:00+00:00,1767376800,signin,cfo@evilcorp.com,104.26.12.88,signin_success,app=Microsoft Graph client= status=0 result=0,5:19
+2026-01-02T18:28:00+00:00,1767378480,signin,cfo@evilcorp.com,104.26.12.88,signin_failure,app=SharePoint Online client=Other clients status=50074 result=50074 error_code=50074 reason=User did not complete MFA. country=FR,7:30
+2026-01-03T00:56:00+00:00,1767401760,signin,it.admin@evilcorp.com,185.199.110.42,signin_success,app=Microsoft 365 Admin Center client=POP3 status=0 result=0 country=ES,3:17
+2026-01-03T07:05:00+00:00,1767423900,ual,svc.backup@evilcorp.com,104.26.12.88,UserLoggedIn,AzureActiveDirectory,1:34
+2026-01-03T15:01:00+00:00,1767452460,signin,bob@evilcorp.com,83.45.12.33,signin_failure,app=SharePoint Online client=IMAP4 status=50053 result=50053 error_code=50053 reason=Account is locked. country=ES,3:16
+2026-01-03T18:40:00+00:00,1767465600,signin,alice@evilcorp.com,83.45.12.34,signin_failure,app=Microsoft 365 Admin Center client=POP3 status=50074 result=50074 error_code=50074 reason=Invalid username or password. country=ES,7:19
+2026-01-04T01:18:00+00:00,1767489480,signin,it.admin@evilcorp.com,104.26.12.88,signin_failure,app=SharePoint Online client=Other clients status=50058 result=50058 error_code=50058 reason=MFA required. country=DE,7:3
+2026-01-04T03:10:00+00:00,1767496200,signin,alice@evilcorp.com,185.199.110.42,signin_success,app=Exchange Online client=POP3 status=0 result=0 country=ES,3:18
+2026-01-04T07:24:00+00:00,1767511440,ual,alice@evilcorp.com,5.62.41.22,Set-Mailbox,Exchange,1:18
+2026-01-04T08:12:00+00:00,1767514320,signin,,185.199.110.42,signin_failure,app=Graph Explorer client= status=0 result=50076 error_code=50076 reason=Invalid secret.,2:10
+2026-01-04T17:58:00+00:00,1767549480,ual,alice@evilcorp.com,2.139.88.10,Add-MailboxPermission,Exchange,1:31
+2026-01-04T18:26:00+00:00,1767551160,signin,svc.backup@evilcorp.com,2.139.88.10,signin_failure,app=SharePoint Online client=Exchange ActiveSync status=50074 result=50074 error_code=50074 reason=Invalid username or password. country=US,4:6
+2026-01-04T19:10:00+00:00,1767553800,signin,cfo@evilcorp.com,2.139.88.10,signin_success,app=Microsoft Teams client=Browser status=0 result=0 country=ES,7:23
+2026-01-04T20:57:00+00:00,1767560220,signin,alice@evilcorp.com,83.45.12.34,signin_failure,app=Microsoft 365 Admin Center client=POP3 status=50074 result=50074 error_code=50074 reason=Account is locked. country=DE,7:17
+2026-01-04T20:58:00+00:00,1767560280,signin,,83.45.12.33,signin_success,app=Graph Explorer client= status=50076 result=0,2:16
+2026-01-04T22:21:00+00:00,1767565260,ual,bob@evilcorp.com,104.26.12.88,Add member to role,AzureActiveDirectory,1:36
+2026-01-05T02:19:00+00:00,1767579540,signin,it.admin@evilcorp.com,104.26.12.88,signin_failure,app=Microsoft 365 Admin Center client=IMAP4 status=50053 result=50053 error_code=50053 reason=Account is locked. country=US,6:29
+2026-01-05T03:53:00+00:00,1767585180,ual,it.admin@evilcorp.com,5.62.41.22,Send,Exchange,1:1
