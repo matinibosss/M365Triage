@@ -110,9 +110,6 @@ The report also supports **case metadata** so it can be delivered as a professio
 ### Raw markdown section (for ticketing / quick sharing)
 ![Raw](images/report-9.png)
 
-> [!TIP]  
-> Keep screenshots in `./images/` so relative links work in GitHub and in other Markdown renderers.
-
 ---
 
 ## Dependencies (setup)
@@ -144,9 +141,6 @@ source .venv/bin/activate
 # 3) Install dependencies
 pip install -r requirements.txt
 ```
-
-> [!CAUTION]  
-> If your Python installation is “externally managed” (PEP 668 / MSYS2 / system Python), **do not install system-wide**. Use a venv as shown above.
 
 ---
 
