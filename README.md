@@ -136,3 +136,20 @@ The HTML report is intended to be the **primary deliverable** for stakeholders, 
 
 This tool is provided for forensic triage and incident response support.  
 The author provides no guarantee that it will detect all threats or cover all investigative scenarios. The user is responsible for validating results and for the lawful and appropriate use of the tool.
+
+
+
+
+
+
+# 1) Crea venv
+py -m venv .venv
+
+# 2) Activa venv
+.\.venv\Scripts\Activate.ps1
+
+# 3) Actualiza pip (importante)
+python -m pip install -U pip setuptools wheel
+
+# 4) Instala requirements
+pip install -r requirements.txt
