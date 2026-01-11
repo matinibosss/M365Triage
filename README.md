@@ -182,7 +182,7 @@ The `--outdir` folder will typically contain:
 
 ## Sample logs in this repository
 
-> [!IMPORTANT]  
+> [!WARNING]  
 > Any sample logs included with this repository are **synthetic / simulated (fake) datasets** created for testing and demonstration.  
 > They do **not** contain real tenant data, real users, or confidential information.
 
