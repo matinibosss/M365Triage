@@ -2,7 +2,7 @@
 
 ![M365Triage Banner](images/banner.png)
 
-### **A**utomated **C**orrelation of **M**365 **E**vents
+### **A**utomated **C**orrelation of **M**365 **E**vents (ACME)
 
 An **offline forensic triage** tool that converts Microsoft 365 exported CSV logs into a **normalized local dataset (SQLite)** and a **professional, court‑friendly HTML report**. 
 
